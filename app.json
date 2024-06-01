@@ -14,14 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.beanduong.famfam-3d"
+      "bundleIdentifier": "com.beanduong.famfam_3d"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.beanduong.famfam-3d"
+      "package": "com.beanduong.famfam_3d"
     },
     "web": {
       "bundler": "metro",
