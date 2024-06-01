@@ -16,7 +16,7 @@ export default function HomeScreen() {
         }}
       >
         <OrbitControls enablePan={false} dampingFactor={0.01} rotateSpeed={5} />
-        <ambientLight intensity={2.0} />
+        <ambientLight intensity={1.0} />
         <Logo />
       </Canvas>
     </View>
