@@ -1,12 +1,10 @@
 import { StyleSheet, View } from "react-native";
 import { Canvas } from "@react-three/fiber/native";
 import { Logo } from "@/components/Logo";
-import useControls from "r3f-native-orbitcontrols";
 
 export default function HomeScreen() {
-  const [OrbitControls, events] = useControls();
   return (
-    <View style={styles.container} {...events}>
+    <View style={styles.container}>
       <Canvas
         camera={{
           position: [0, 0, 12],
@@ -15,7 +13,6 @@ export default function HomeScreen() {
           far: 1000,
         }}
       >
-        <OrbitControls enablePan={false} dampingFactor={0.01} rotateSpeed={5} />
         <ambientLight intensity={1.0} />
         <Logo />
       </Canvas>

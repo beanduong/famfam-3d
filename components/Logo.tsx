@@ -33,7 +33,7 @@ export const Logo = ({}) => {
     <group ref={refOuterRing}>
       <group ref={refInnerCircle}>
         <mesh>
-          <circleGeometry args={[3, 64]} />
+          <circleGeometry args={[3.8, 64]} />
           <meshStandardMaterial
             attach="material"
             map={textureMatisse}
@@ -42,7 +42,7 @@ export const Logo = ({}) => {
           />
         </mesh>
         <mesh rotation={[0, Math.PI, 0]}>
-          <circleGeometry args={[3, 64]} />
+          <circleGeometry args={[3.8, 64]} />
           <meshStandardMaterial
             attach="material"
             map={textureWorld}
