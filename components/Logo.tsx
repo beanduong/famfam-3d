@@ -8,7 +8,7 @@ export const Logo = ({}) => {
     require("../assets/images/famfam.png"),
     (texture) => {
       texture.wrapS = THREE.RepeatWrapping;
-      texture.wrapT = THREE.RepeatWrapping; // Added wrapT for completeness
+      texture.wrapT = THREE.RepeatWrapping;
       texture.repeat.set(4, 1);
     }
   );
